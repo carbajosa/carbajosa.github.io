@@ -1,9 +1,44 @@
 <html>
 	<head>
-		<title>DSCC Page</title>
+		<title>Test Page</title>
+
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			body {
+				background-color: #EBD1B7;
+			}
+
+			.block1 {
+				width:  320px;
+				height: 240px;
+				background-color: #9E846C;
+
+				margin-top: -120px;
+				top: 50%;
+
+				margin-left: -160px;
+				left: 50%;
+			}
+
+			.header {
+				width:  100%;
+				height: 50px;
+				background-color: #54899E;
+			}
+			.footer {
+				width:  100%;
+				height: 50px;
+				background-color: #1B4252;
+			}
+		</style>
 	</head>
 
 	<body>
-		<h1>Hello World!</h1>
+		<div id="header" class="header"></div>
+		<div id="footer" class="footer"></div>
+		<div id="block1" class="block1"></div>
 	</body>
 </html>
